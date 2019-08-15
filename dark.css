@@ -1,0 +1,59 @@
+/* Basic rules */
+
+html {
+  background-color: rgb(32,32,32);
+  color: rgb(224,224,224);
+  font-size: 10px;
+  font-family: "Trebuchet MS", Ubuntu, Lato, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  /* 40px tall box, spanning the full width of page.
+   * Stuck to top of page.
+   * Scrollbar goes sideways only. */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 38px;
+  width: calc(100% - 2px - 1rem);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255,255,255);
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+  overflow: auto hidden;
+}
+
+.sidebar {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  height: calc(100% - 40px);
+  width: calc(20% - 1rem);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255,255,255);
+  padding: 0 0.5rem;
+  font-size: 1.4rem;
+  overflow: auto;
+}
+
+.primary-flow {
+  margin-top: 40px;
+  margin-left: 20%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255,255,255);
+}
+
+.primary-flow main {
+}
+
+.primary-flow footer {
+}
